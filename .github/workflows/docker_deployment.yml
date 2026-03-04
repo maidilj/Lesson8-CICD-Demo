@@ -5,7 +5,7 @@ on:
     branches: [ "main" ]
 
 env:
-  IMAGE_NAME:   maidilj/lesson8-cicd-demo
+  IMAGE_NAME:   maidilj/lesson8-cicd-demo:1.0
   IMAGE_TAG: ${{ github.sha }}
 
 jobs:
